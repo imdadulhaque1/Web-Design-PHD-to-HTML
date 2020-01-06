@@ -1,0 +1,171 @@
+
+#colors{
+    color: rgb(218, 167, 29);
+    font-size: 30px;
+    margin-right:100px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.carousel-item{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 220px 0;
+    color: #fffffff6;
+    margin: 0 auto;
+}
+/* #slider{
+    background: url(Image/Lightbulb-at-sunset_www.FullHDWpp.com_.jpg);
+} */
+/* .slider-overlay{
+    width: 100%;
+    background: rgba(189, 147, 9, 0.5)no-repeat;
+    overflow: hidden;
+}
+.carousel-item h3{
+   font-size: 37px;
+}
+.carousel-item h2{
+    font-size: 80px;
+    border: 1px solid #ffffff;
+    max-width: 870px;
+    margin: 0px auto;  
+    color: #eccc13;
+ }
+ .carousel-item h4{
+    font-size: 32px;
+ }
+
+
+ .about-top{
+     color: #030303;
+     /* padding: 110px 0; */
+     /* margin-top: 80px;
+ }
+ .about-top h2{
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 36px;
+ }
+ .about-top p{
+     font-size: 16px;
+     max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+ }
+
+.about-icon i{
+    font-size: 35px;
+}
+.about-icon h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-icon p{
+    font-size: 14px;
+}
+.about-icon:hover i,
+.about-icon:hover h2{
+    color: #87d37c;
+}  */
+
+.top-bit{
+    width: 100%;
+    height: 25px;
+    background: olivedrab;
+    overflow: hidden;
+    margin-bottom: 5px;
+
+}
+
+.marque-left{
+    width: 240px;
+    height: 315px;
+    float: left;
+    font-family: Bookman Old Style;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: solid 2px #ff8800;
+    background: rgb(43, 143, 43);
+    border-radius: 10px;
+}
+
+.marque-center{
+    width: 240px;
+    height: 315px;
+    float: center;
+    font-family: Bookman Old Style;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: solid 2px #ff8800;
+    background: rgb(43, 143, 43);
+    border-radius: 10px;
+}
+
+.marque-right{
+    width: 240px;
+    height: 315px;
+    float: right;
+    font-family: Bookman Old Style;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: solid 2px #ff8800;
+    background: rgb(43, 143, 43);
+    border-radius: 10px;
+}
+.myself{
+    width: 1140px;
+    height: 70px;
+    background: darkgreen;
+    color: bisque;
+    overflow: hidden;
+   line-height: 70px;
+   margin-top: 5px;
+   border-top: solid 2px blue;
+   border-bottom: solid 2px blue;
+}
+#pass{
+    font-size: 30px;
+    font-family: Bookman Old Style;
+}
+#about{
+    font-family: Castellar;
+    text-align: center;
+}
+.describtion{
+    margin-top: 70px;
+    width: 1140px;
+    height: auto;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.row{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-circle:hover{
+    transform: scale(1.28);
+}
+.img-circle{
+    transition: all linear 0.5s;
+}
+.footer-bootom{
+    width: 100%;
+    height: 5px;
+    background: darkolivegreen;
+    overflow: hidden;
+}
+
+.footer{
+    padding: 30px;
+    background: #ddd;
+    text-align: center;
+}

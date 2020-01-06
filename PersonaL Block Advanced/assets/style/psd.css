@@ -1,0 +1,341 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+}
+
+.navbar-default{
+    background:transparent;
+    border-color: transparent;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.navbar-nav{
+    margin-top: 20px;
+}
+
+.nav-item{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.logo img{
+    width: 130px;
+    margin-top: 20px;
+}
+/* .mynav{
+    color: rgb(238, 238, 14);
+} */
+.carousel-item{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 220px 0;
+    color: #fffffff6;
+    margin: 0 auto;
+}
+#slider{
+    background: url(/assets/image/33.jpg);
+}
+.slider-overlay{
+    width: 100%;
+    background: rgba(0, 0, 0, .5)no-repeat;
+}
+.carousel-item h3{
+   font-size: 37px;
+}
+.carousel-item h2{
+    font-size: 80px;
+    border: 1px solid #ffffff;
+    max-width: 670px;
+    margin: 0px auto;  
+    color: #eccc13;
+ }
+ .carousel-item h4{
+    font-size: 32px;
+ }
+
+
+ .about-top{
+     color: #030303;
+     /* padding: 110px 0; */
+     margin-top: 80px;
+ }
+ .about-top h2{
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 36px;
+ }
+ .about-top p{
+     font-size: 16px;
+     max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+ }
+
+.about-icon i{
+    font-size: 35px;
+}
+.about-icon h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-icon p{
+    font-size: 14px;
+}
+.about-icon:hover i,
+.about-icon:hover h2{
+    color: #87d37c;
+}
+
+/*------------------------------------------Services part start from here-----------------------------------*/
+.service-icon img{
+    width: 100%;
+    height: 180px;
+}
+#service{
+    background: #e1e1e1;
+    padding: 90px 0;
+}
+.service-icon{
+    position: relative;
+    overflow: hidden;
+}
+.about-overlay{
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: .5s;
+
+}
+
+.service-icon:hover .about-overlay{
+    top: 0;
+}
+
+.about-icon-overlay{
+    position: absolute;
+    left: 40%;
+    bottom: -100%;
+    transition: .5s;
+}
+.about-icon-overlay i{
+    width: 43%;
+    height: 40%;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    transition: .5s;
+}
+.service-icon:hover .about-icon-overlay{
+    bottom: 40%;
+}
+.about-icon-overlay i:hover{
+    background: #87d37c;
+    border: 1px solid #87d37c;
+
+}
+/*----------------------------Services part is ended---------------------*/
+
+/*-----------------------PortfoLio part start from here------------------*/
+#portfolio{
+    padding: 100px 0;
+}
+#portfolio p{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#portfolio h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+* { box-sizing: border-box; }
+/* ---- button ---- */
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #000;
+  border: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+}
+.button:hover {
+  background-color: #87d37c;
+  color: #fff;
+}
+.button:active,
+.button.is-checked {
+  background-color: #87d37c;
+}
+.button.is-checked {
+  color: white;
+}
+
+/* ---- button-group ---- */
+.button-group {
+  margin-bottom: 40px;
+}
+.button-group .button {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+.element-item {
+  position: relative;
+  float: left;
+  color: #262524;
+  width: 33%;
+  border: 10px solid #ffffff;
+  overflow: hidden;
+}
+.element-item img{
+    width: 100%;
+    height: 210px;
+}
+.isotope-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%; 
+    top: -100%;
+    transition: .5s;
+}
+.element-item:hover .isotope-overlay{
+    top: 0;
+}
+.isotope-overlay h2{
+    color: #87d37c;
+    margin-top: 85px;
+}
+
+/* ---------------------PortfoLio part is finished-----------------------*/
+
+
+/* -------------------Pricing Part start From here----------------------- */
+#pricing-table{
+    padding: 100px 0;
+}
+.pricing{
+    background: #39393a;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+}
+.pricing-top{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border: 6px solid #fff;
+    margin: 0 auto;
+    transition: .5s;
+}
+.pricing-top p{
+    margin-top: 20px;
+}
+.pricing-top sup{
+    font-size: 20px;
+    top:-11px;
+    left: -1px;
+}
+.pricing-top em{
+    font-size: 25px;
+    font-weight: bold;
+}
+.pricing-top span{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.pricing ul{
+    padding: 0px;
+}
+.pricing ul li{
+    max-width: 145px;
+    border-bottom: 1px solid #FFF;
+    list-style: none;
+    margin: 0 auto;
+    padding: 12px 0;
+    font-size: 16px;
+}
+.btn{
+    background: #fff;
+    color: #39393a;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+    transition: .5s;
+}
+.pricing:hover{
+    background: #87d37c;
+    color: #fff;
+}
+.pricing:hover .btn{
+    background: #fff;
+    color: #87d37c;
+}
+.pricing:hover .pricing-top{
+    background: #fff;
+    color: #87d37c
+}
+
+
+/* ------------------------Start CounterUp from here------------------------ */
+#counterup{
+    background: url(../../Image/Another/wp.jpg)no-repeat;
+}
+.counter-overlay{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+.counter-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.count{
+    border: 1px solid #5f5a58;
+    color: #fff;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, .5);
+}
+.counter{
+    font-size: 35px;
+}
+.count h4{
+    font-size: 18px;
+}
+
+                                /* beLow the ProbLems of this projects */
+/* .carousel-indicators li{
+     background: #440808;
+     height: 15px;
+     width: 15px;
+     margin: 2px;
+ }
+ .carousel-indicators .active{
+    background: #e94e07;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+} */
+
+/* Navbar Fixed top----> I can't do this */
